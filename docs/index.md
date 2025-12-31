@@ -2,10 +2,12 @@
 layout: default
 ---
 
-# Research Project Template
+# research_template
 
-Reusable skeleton for organizing research code, datasets, models, evaluation, and literature.
-_Last updated: 2025-12-31 10:05 UTC_
+Starter skeleton to organize code, datasets, experiments, models, and literature for any research project.
+_Last updated: 2025-12-31 15:12 UTC_
+
+Project homepage: https://github.com/AliNikkhah2001/research_template
 
 ## What this template includes
 - Opinionated folder layout for code, datasets, papers, models, and experiments.
@@ -24,16 +26,16 @@ _Last updated: 2025-12-31 10:05 UTC_
 - `scripts/`: automation such as the README generator
 
 ## Code modules
-- [ ] **Example Baseline Module** (`code/example-project`) — tags: template, example, baseline
-  - A placeholder module that shows how to document code entries. Include setup steps, expected inputs/outputs, and a pointer to scripts or notebooks inside this folder.
+- [ ] **Starter Module** (`code/starter-module`) — tags: template, starter, module
+  - Use this as a pattern for your first code drop: include setup instructions, expected inputs/outputs, and links to scripts or notebooks inside this folder. Replace this text with your module description.
 
 ## Datasets
-- [ ] **Example Dataset Card** (`datasets/example-dataset`) — tags: template, example, manifest
-  - Document how to fetch the data (e.g., scripts, buckets, DOIs) and include schema highlights or licensing notes. Keep large files out of git; use manifests instead.
+- [ ] **Starter Dataset Card** (`datasets/starter-dataset`) — tags: template, starter, dataset
+  - Document how to fetch data (scripts, buckets, DOIs), licensing, schema, and checksums. Keep raw files out of git; include manifests or download scripts here instead.
 
 ## Papers
-- [ ] **Example Paper Note** (`papers/example-paper`) — tags: template, review
-  - Use this file to jot down key contributions, datasets, and open questions. This keeps the main README concise while still surfacing what you have read.
+- [ ] **Starter Paper Note** (`papers/starter-paper-note`) — tags: template, review, starter
+  - Capture citation, key contributions, datasets, methods, and open questions. Link to the DOI instead of embedding PDFs when licensing is unclear.
 
 ## Models & Training
 - Document experiment configs and link to checkpoints or releases.

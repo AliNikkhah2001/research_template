@@ -1,5 +1,5 @@
 {
-  "name": "Research Project Template",
-  "description": "Reusable skeleton for organizing research code, datasets, models, evaluation, and literature.",
-  "homepage": ""
+  "name": "research_template",
+  "description": "Starter skeleton to organize code, datasets, experiments, models, and literature for any research project.",
+  "homepage": "https://github.com/AliNikkhah2001/research_template"
 }
