@@ -1,0 +1,52 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+
+# Virtual environments and tooling
+.venv/
+env/
+.env
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+.coverage
+
+# Large or generated assets
+data/
+datasets/raw/
+datasets/processed/
+datasets/cache/
+logs/
+outputs/
+artifacts/
+checkpoints/
+results/
+**/tmp/
+**/temp/
+
+# Common binary formats we do not want in git
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.tfrecord
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
